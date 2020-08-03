@@ -9,12 +9,7 @@ class Song
   def save
     self.class.all << self
   end
-
-def initialize(name)
-  song = Song.new
-  song.save
-  song
-end
+  
 
 def create
   song = Song.new
