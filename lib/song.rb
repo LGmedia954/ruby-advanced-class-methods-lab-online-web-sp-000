@@ -48,7 +48,7 @@ end
 
 
 def self.new_from_filename(filename)
-  
+  element
   
   
   song = self.create
