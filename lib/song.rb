@@ -26,8 +26,6 @@ end
 
 def new_by_name(name)
   @@all.find{|song| song.name == name}
-  end
-    song.name
 end
 
 def create_by_name
