@@ -25,16 +25,15 @@ def create
 end
 
 def new_by_name(name)
-  @@all.find{|song| song.name == name}
+  @@all.initialize{|song| song.name == name}
 end
 
 def create_by_name
-  
+  @@all.create{|song| song.name == name}
 end
 
 def find_by_name(name)
- song.detect do {|name| 
-   
+  @@all.find{|song| song.name == name}
 end
 
 def find_or_create_by_name
