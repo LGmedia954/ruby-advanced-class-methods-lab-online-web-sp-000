@@ -36,24 +36,28 @@ def self.find_by_name(song_name)
   self.all.detect{|s| s.name == song_name}
 end
 
+
 def self.find_or_create_by_name(song_name)
   self.find_by_name(song_name) || self.create_by_name(song_name)
 end
+
 
 def self.alphabetical
   self.all.sort_by{|s| s.name}
 end
 
+
 def self.new_from_filename(filename)
   
 end
+
 
 def create_from_filename
   
 end
 
 
-def destroy_all
+def self.destroy_all
   self.all.clear
 end
 
