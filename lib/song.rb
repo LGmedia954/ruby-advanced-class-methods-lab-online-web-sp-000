@@ -56,7 +56,7 @@ end
 
 
 def destroy_all
-   @@all = []
+  @@all = []
 end
 
 
