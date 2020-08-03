@@ -12,23 +12,23 @@ class Song
   end
 
 def create
-  s = Song.new
-  s.name = ""
-  s.artist_name = ""
-  s.save
+  song = Song.new
+  song.name = ""
+  song.artist_name = ""
+  song.save
 end
 
 def new_by_name(name)
-  s.each do |name|
-    s.name
+  song.each do {|name|
+    song.name
 end
 
 def create_by_name
   
 end
 
-def find_by_name
- s.detect do |name|
+def find_by_name(song)
+ song.detect do {|name| 
    
 end
 
