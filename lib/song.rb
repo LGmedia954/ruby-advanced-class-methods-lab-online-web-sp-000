@@ -11,9 +11,7 @@ class Song
   end
 
 def initialize(name)
-  @name = name
-  song.name = ""
-  song.artist_name = ""
+  song = Song.new
   song.save
 end
 
