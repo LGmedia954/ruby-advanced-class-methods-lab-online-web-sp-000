@@ -12,7 +12,8 @@ class Song
 
 def initialize(name)
   song = Song.new
-  song.save
+  song.
+  song
 end
 
 def create
