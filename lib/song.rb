@@ -11,7 +11,7 @@ class Song
   end
   
 
-def create
+def self.create
   song = Song.new
   song.save
   song
