@@ -1,5 +1,5 @@
 class Song
-  attr_accessor :name, :artist_name, :song
+  attr_accessor :name, :artist_name
   @@all = []
   ALL = []
 
@@ -12,10 +12,10 @@ class Song
   end
 
 def create
-s = Song.new
-s.name = ""
-s.artist_name = ""
-s.save
+  s = Song.new
+  s.name = ""
+  s.artist_name = ""
+  s.save
 end
 
 def new_by_name
