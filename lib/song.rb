@@ -17,6 +17,7 @@ def create
   song
 end
 
+
 def new_by_name(name)
   @@all.initialize{|song| song.name == name}
 end
