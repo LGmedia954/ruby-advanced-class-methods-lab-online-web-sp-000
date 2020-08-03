@@ -15,6 +15,8 @@ def create
 @@all << @song
 end
 
+def initiate
+
 
 
 end
