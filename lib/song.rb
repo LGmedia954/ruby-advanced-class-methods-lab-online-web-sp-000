@@ -12,15 +12,12 @@ class Song
 
 
 
-def initialize
+def create
 self
 @@all << self
 end
 
-def create
-  @song = song
- @all << @song
-end
+
 
 end
 
