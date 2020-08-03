@@ -46,7 +46,7 @@ end
 
 
 def destroy_all
-  ALL = []
+  ALL.clear
 end
 
 
