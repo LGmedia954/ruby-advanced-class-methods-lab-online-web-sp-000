@@ -10,7 +10,7 @@ class Song
     self.class.all << self
   end
 
-def initiate
+def initialize
   song = Song.new
   song.name = ""
   song.artist_name = ""
