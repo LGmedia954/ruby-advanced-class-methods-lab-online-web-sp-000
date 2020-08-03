@@ -19,7 +19,8 @@ def create
 end
 
 def new_by_name(name)
-  
+  s.each do |name|
+    
 end
 
 def create_by_name
