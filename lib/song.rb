@@ -10,8 +10,8 @@ class Song
     self.class.all << self
   end
 
-def initialize(song)
-  @song = song
+def initialize(name)
+  @name = name
   song.name = ""
   song.artist_name = ""
   song.save
@@ -33,7 +33,7 @@ def create_by_name
   
 end
 
-def find_by_name(song)
+def find_by_name(name)
  song.detect do {|name| 
    
 end
