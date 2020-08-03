@@ -12,8 +12,10 @@ class Song
   end
 
 def create
-@song = song
-song.create
+s = Song.new
+s.name = ""
+s.artist_name = ""
+s.save
 end
 
 def new_by_name
