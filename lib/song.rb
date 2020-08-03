@@ -18,7 +18,7 @@ def create
   s.save
 end
 
-def new_by_name
+def new_by_name(name)
   
 end
 
