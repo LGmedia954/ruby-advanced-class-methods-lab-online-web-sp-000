@@ -25,7 +25,8 @@ def create
 end
 
 def new_by_name(name)
-  song.each do {|name|
+  @@all.find{|song| song.name == name}
+  end
     song.name
 end
 
