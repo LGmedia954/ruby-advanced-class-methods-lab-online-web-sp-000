@@ -25,23 +25,26 @@ def self.new_by_name(song_name)
 end
 
 
-def create_by_name
-  @@all.create{|song| song.name == name}
+def self.create_by_name(song_name)
+  song = self.create
+  song.name = song_name
+  song
 end
 
-def find_by_name(name)
-  @@all.find{|song| song.name == name}
+
+def self.find_by_name(song_name)
+  self.all.detect{|s| s.name == song_name}
 end
 
-def find_or_create_by_name
-  
+def self.find_or_create_by_name(song_name)
+  self.find_by_name(song_name) || self.create_by_name(song_name)
 end
 
-def alphabetical
-  
+def self.alphabetical
+  self.all.sort_by{|s| s.name}
 end
 
-def new_from_filename
+def self.new_from_filename(filename)
   
 end
 
