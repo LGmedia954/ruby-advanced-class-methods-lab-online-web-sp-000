@@ -54,7 +54,7 @@ end
 
 
 def destroy_all
-  @@all = []
+  self.all.clear
 end
 
 
