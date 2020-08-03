@@ -48,8 +48,9 @@ end
 
 
 def self.new_from_filename(filename)
-  element = filename.split(" - ")
-  
+  work = filename.split(" - ")
+  artist_name = work[0]
+  song_name = work[1].gsub
   
   song = self.create
   song.name = song_name
@@ -59,7 +60,7 @@ end
 
 
 def self.create_from_filename(filename)
-  
+  work = filename.split(" - ")
   
   
   song = self.create
