@@ -19,8 +19,11 @@ end
 
 
 def self.new_by_name(song_name)
+  song = self.new
+  song.name = song_name
   song
 end
+
 
 def create_by_name
   @@all.create{|song| song.name == name}
