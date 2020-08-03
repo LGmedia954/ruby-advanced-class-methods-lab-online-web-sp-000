@@ -17,6 +17,10 @@ self
 @@all << self
 end
 
+def new_by_name
+  
+end
+
 
 
 end
