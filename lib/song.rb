@@ -13,9 +13,8 @@ class Song
 
 def create
   song = Song.new
-  song.name = ""
-  song.artist_name = ""
   song.save
+  song
 end
 
 def new_by_name(name)
