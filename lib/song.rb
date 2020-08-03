@@ -11,8 +11,8 @@ class Song
   end
 
 def create
-self
-@@all << self
+@song = song
+song
 end
 
 def new_by_name
