@@ -20,7 +20,7 @@ end
 
 def new_by_name(name)
   s.each do |name|
-    
+    s.name
 end
 
 def create_by_name
