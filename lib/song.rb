@@ -12,7 +12,7 @@ class Song
 
 def initialize(name)
   song = Song.new
-  song.
+  song.save
   song
 end
 
