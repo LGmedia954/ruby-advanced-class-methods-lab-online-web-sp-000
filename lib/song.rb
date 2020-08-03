@@ -52,7 +52,7 @@ def self.new_from_filename(filename)
 end
 
 
-def create_from_filename
+def self.create_from_filename(filename)
   
 end
 
